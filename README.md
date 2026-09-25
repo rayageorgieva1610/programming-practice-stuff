@@ -35,6 +35,10 @@ The sales figures are in millions of copies.
 
 ## Current Analysis
 
+### Data Exploration
+
+The first part of the project explores the dataset by displaying the first few rows and looking at the available data.
+
 ### Top 5 best-selling games by year
 
 The program lets the user enter a year and returns the five best-selling games released that year based on global sales.
@@ -51,6 +55,12 @@ For example, for 2015:
 
 The year is entered by the user when the program runs, so the analysis can be repeated for different years without changing the code.
 
+### Visualization
+
+The program also creates a bar chart for the selected year. The chart compares the global sales of the five best-selling games returned by the analysis.
+
+This makes it easier to see the difference in sales between the top games instead of only looking at the values in a table.
+
 ## Tools
 
 - Python
@@ -66,6 +76,6 @@ The year is entered by the user when the program runs, so the analysis can be re
 ## Progress
 
 
-So far, the project can load and explore the dataset and find the top 5 best-selling games for any year entered by the user.
+So far, the project can load and explore the dataset, find the top 5 best-selling games for any year entered by the user and visualize the results using a bar chart.
 
 I'm going to keep adding new analyses and visualizations as I work on the project.
